@@ -16,10 +16,18 @@
     "directory": ".open-next/assets"
   },
 
+  // Environment variables
+  "vars": {
+    "NEXT_PUBLIC_GOOGLE_ANALYTICS_ID": "G-VF7R7C8E97"
+  },
+
   // Environment configuration
   "env": {
     "production": {
       "name": "genie3-vip-production",
+      "vars": {
+        "NEXT_PUBLIC_GOOGLE_ANALYTICS_ID": "G-VF7R7C8E97"
+      },
       "r2_buckets": [
         {
           "binding": "NEXT_INC_CACHE_R2_BUCKET",
